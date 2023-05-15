@@ -8,6 +8,10 @@ programa {
       leia(nota)
       soma = soma + nota
     }
-    escreva("A média é: ", soma / 4)
+    se ((soma / 4) >= 7) {
+      escreva("Aprovado")
+    } senao {
+      escreva("Reprovado")
+    }
   }
 }
