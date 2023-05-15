@@ -1,3 +1,4 @@
+
 programa {
   funcao inicio() {
     inteiro num_1, num_2
