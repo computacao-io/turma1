@@ -7,8 +7,10 @@ programa {
       escreva("Digite uma nota: ")
       leia(nota)
       soma = soma + nota
-      media = soma / 4
     }
+
+    media = soma / 4
+
     se (media >= 7) {
       escreva("Aprovado, média final: ", media)
     }
