@@ -10,7 +10,7 @@ programa {
     escreva("quantas horas trabalhadas? ")
     leia(qtdrs)
 
-    pagamento = (dias * qtdrs) valor_hora * qtdrs
+    pagamento = (dias * qtdrs) * valor_hora
 
     escreva("O pagamnento do mes será ? ", pagamento)
   }
